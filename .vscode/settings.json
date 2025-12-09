@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.apivcs": false,
+        "**/.designer.json": false,
+        "**/.DS_Store": true,
+        "**/.exchange.xml": false,
+        "**/.exchange_modules_tmp": false,
+        "**/.git": true,
+        "**/.gitignore": false,
+        "**/.hg": true,
+        "**/.mvn": false,
+        "**/.svn": true,
+        "**/bin": true,
+        "**/obj": true,
+        "**/Thumbs.db": true,
+    },
+    "explorerExclude.backup": {}
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MockInterceptor.Generator/MockInterceptor.Generator.csproj" />
+  <Project Path="MockInterceptor.Generator.Tests/MockInterceptor.Generator.Tests.csproj" />
+  <Project Path="MockInterceptor.Sample.Tests/MockInterceptor.Sample.Tests.csproj" />
+</Solution>
