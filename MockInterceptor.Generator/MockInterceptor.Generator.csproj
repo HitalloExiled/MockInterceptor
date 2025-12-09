@@ -7,6 +7,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <IsRoslynComponent>true</IsRoslynComponent>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <IsPackable>true</IsPackable>
+    <PackageId>MyLocal.AwesomeLibrary</PackageId>
+    <Version>1.0.0-beta</Version>
+    <Authors>HitalloExiled</Authors>
+    <PackageDescription>Source generator.</PackageDescription>
+    <Configurations>Debug;Test;Release</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

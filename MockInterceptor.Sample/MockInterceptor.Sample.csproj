@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="$(Configuration) == 'Test'">
+    <InterceptorsNamespaces>$(InterceptorsNamespaces);MockInterceptor.Interceptors</InterceptorsNamespaces>
+  </PropertyGroup>
+
+  <ItemGroup Condition="$(Configuration) == 'Test'">
+    <ProjectReference Include="../MockInterceptor.Generator/MockInterceptor.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>
